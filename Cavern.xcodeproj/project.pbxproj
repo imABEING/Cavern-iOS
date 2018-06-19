@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A5E946420D885CD00CC480E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5E946320D885CD00CC480E /* AppDelegate.swift */; };
+		5A5E946620D885CD00CC480E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5E946520D885CD00CC480E /* ViewController.swift */; };
+		5A5E946920D885CD00CC480E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A5E946720D885CD00CC480E /* Main.storyboard */; };
+		5A5E946C20D885CD00CC480E /* Cavern.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5A5E946A20D885CD00CC480E /* Cavern.xcdatamodeld */; };
+		5A5E946E20D885CE00CC480E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A5E946D20D885CE00CC480E /* Assets.xcassets */; };
+		5A5E947120D885CE00CC480E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A5E946F20D885CE00CC480E /* LaunchScreen.storyboard */; };
+		5A5E947C20D885CE00CC480E /* CavernTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5E947B20D885CE00CC480E /* CavernTests.swift */; };
+		5A5E948720D885CE00CC480E /* CavernUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5E948620D885CE00CC480E /* CavernUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A5E947820D885CE00CC480E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A5E945820D885CD00CC480E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A5E945F20D885CD00CC480E;
+			remoteInfo = Cavern;
+		};
+		5A5E948320D885CE00CC480E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A5E945820D885CD00CC480E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A5E945F20D885CD00CC480E;
+			remoteInfo = Cavern;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A5E946020D885CD00CC480E /* Cavern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cavern.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A5E946320D885CD00CC480E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5A5E946520D885CD00CC480E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5A5E946820D885CD00CC480E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A5E946B20D885CD00CC480E /* Cavern.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cavern.xcdatamodel; sourceTree = "<group>"; };
+		5A5E946D20D885CE00CC480E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A5E947020D885CE00CC480E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A5E947220D885CE00CC480E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A5E947720D885CE00CC480E /* CavernTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CavernTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A5E947B20D885CE00CC480E /* CavernTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CavernTests.swift; sourceTree = "<group>"; };
+		5A5E947D20D885CE00CC480E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A5E948220D885CE00CC480E /* CavernUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CavernUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A5E948620D885CE00CC480E /* CavernUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CavernUITests.swift; sourceTree = "<group>"; };
+		5A5E948820D885CE00CC480E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A5E945D20D885CD00CC480E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A5E947420D885CE00CC480E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A5E947F20D885CE00CC480E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A5E945720D885CD00CC480E = {
+			isa = PBXGroup;
+			children = (
+				5A5E946220D885CD00CC480E /* Cavern */,
+				5A5E947A20D885CE00CC480E /* CavernTests */,
+				5A5E948520D885CE00CC480E /* CavernUITests */,
+				5A5E946120D885CD00CC480E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A5E946120D885CD00CC480E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A5E946020D885CD00CC480E /* Cavern.app */,
+				5A5E947720D885CE00CC480E /* CavernTests.xctest */,
+				5A5E948220D885CE00CC480E /* CavernUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A5E946220D885CD00CC480E /* Cavern */ = {
+			isa = PBXGroup;
+			children = (
+				5A5E946320D885CD00CC480E /* AppDelegate.swift */,
+				5A5E946520D885CD00CC480E /* ViewController.swift */,
+				5A5E946720D885CD00CC480E /* Main.storyboard */,
+				5A5E946D20D885CE00CC480E /* Assets.xcassets */,
+				5A5E946F20D885CE00CC480E /* LaunchScreen.storyboard */,
+				5A5E947220D885CE00CC480E /* Info.plist */,
+				5A5E946A20D885CD00CC480E /* Cavern.xcdatamodeld */,
+			);
+			path = Cavern;
+			sourceTree = "<group>";
+		};
+		5A5E947A20D885CE00CC480E /* CavernTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A5E947B20D885CE00CC480E /* CavernTests.swift */,
+				5A5E947D20D885CE00CC480E /* Info.plist */,
+			);
+			path = CavernTests;
+			sourceTree = "<group>";
+		};
+		5A5E948520D885CE00CC480E /* CavernUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A5E948620D885CE00CC480E /* CavernUITests.swift */,
+				5A5E948820D885CE00CC480E /* Info.plist */,
+			);
+			path = CavernUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A5E945F20D885CD00CC480E /* Cavern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A5E948B20D885CE00CC480E /* Build configuration list for PBXNativeTarget "Cavern" */;
+			buildPhases = (
+				5A5E945C20D885CD00CC480E /* Sources */,
+				5A5E945D20D885CD00CC480E /* Frameworks */,
+				5A5E945E20D885CD00CC480E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cavern;
+			productName = Cavern;
+			productReference = 5A5E946020D885CD00CC480E /* Cavern.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A5E947620D885CE00CC480E /* CavernTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A5E948E20D885CE00CC480E /* Build configuration list for PBXNativeTarget "CavernTests" */;
+			buildPhases = (
+				5A5E947320D885CE00CC480E /* Sources */,
+				5A5E947420D885CE00CC480E /* Frameworks */,
+				5A5E947520D885CE00CC480E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A5E947920D885CE00CC480E /* PBXTargetDependency */,
+			);
+			name = CavernTests;
+			productName = CavernTests;
+			productReference = 5A5E947720D885CE00CC480E /* CavernTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A5E948120D885CE00CC480E /* CavernUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A5E949120D885CE00CC480E /* Build configuration list for PBXNativeTarget "CavernUITests" */;
+			buildPhases = (
+				5A5E947E20D885CE00CC480E /* Sources */,
+				5A5E947F20D885CE00CC480E /* Frameworks */,
+				5A5E948020D885CE00CC480E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A5E948420D885CE00CC480E /* PBXTargetDependency */,
+			);
+			name = CavernUITests;
+			productName = CavernUITests;
+			productReference = 5A5E948220D885CE00CC480E /* CavernUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A5E945820D885CD00CC480E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = TekRecords;
+				TargetAttributes = {
+					5A5E945F20D885CD00CC480E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 536TJJ8Q2A;
+						ProvisioningStyle = Automatic;
+					};
+					5A5E947620D885CE00CC480E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 536TJJ8Q2A;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5A5E945F20D885CD00CC480E;
+					};
+					5A5E948120D885CE00CC480E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 536TJJ8Q2A;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5A5E945F20D885CD00CC480E;
+					};
+				};
+			};
+			buildConfigurationList = 5A5E945B20D885CD00CC480E /* Build configuration list for PBXProject "Cavern" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A5E945720D885CD00CC480E;
+			productRefGroup = 5A5E946120D885CD00CC480E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A5E945F20D885CD00CC480E /* Cavern */,
+				5A5E947620D885CE00CC480E /* CavernTests */,
+				5A5E948120D885CE00CC480E /* CavernUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A5E945E20D885CD00CC480E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A5E947120D885CE00CC480E /* LaunchScreen.storyboard in Resources */,
+				5A5E946E20D885CE00CC480E /* Assets.xcassets in Resources */,
+				5A5E946920D885CD00CC480E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A5E947520D885CE00CC480E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A5E948020D885CE00CC480E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A5E945C20D885CD00CC480E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A5E946620D885CD00CC480E /* ViewController.swift in Sources */,
+				5A5E946C20D885CD00CC480E /* Cavern.xcdatamodeld in Sources */,
+				5A5E946420D885CD00CC480E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A5E947320D885CE00CC480E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A5E947C20D885CE00CC480E /* CavernTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A5E947E20D885CE00CC480E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A5E948720D885CE00CC480E /* CavernUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A5E947920D885CE00CC480E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A5E945F20D885CD00CC480E /* Cavern */;
+			targetProxy = 5A5E947820D885CE00CC480E /* PBXContainerItemProxy */;
+		};
+		5A5E948420D885CE00CC480E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A5E945F20D885CD00CC480E /* Cavern */;
+			targetProxy = 5A5E948320D885CE00CC480E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A5E946720D885CD00CC480E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A5E946820D885CD00CC480E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A5E946F20D885CE00CC480E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A5E947020D885CE00CC480E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A5E948920D885CE00CC480E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		5A5E948A20D885CE00CC480E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A5E948C20D885CE00CC480E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 536TJJ8Q2A;
+				INFOPLIST_FILE = Cavern/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tekLLC.Cavern;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5A5E948D20D885CE00CC480E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 536TJJ8Q2A;
+				INFOPLIST_FILE = Cavern/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tekLLC.Cavern;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5A5E948F20D885CE00CC480E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 536TJJ8Q2A;
+				INFOPLIST_FILE = CavernTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tekLLC.CavernTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cavern.app/Cavern";
+			};
+			name = Debug;
+		};
+		5A5E949020D885CE00CC480E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 536TJJ8Q2A;
+				INFOPLIST_FILE = CavernTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tekLLC.CavernTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cavern.app/Cavern";
+			};
+			name = Release;
+		};
+		5A5E949220D885CE00CC480E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 536TJJ8Q2A;
+				INFOPLIST_FILE = CavernUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tekLLC.CavernUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Cavern;
+			};
+			name = Debug;
+		};
+		5A5E949320D885CE00CC480E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 536TJJ8Q2A;
+				INFOPLIST_FILE = CavernUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tekLLC.CavernUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Cavern;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A5E945B20D885CD00CC480E /* Build configuration list for PBXProject "Cavern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A5E948920D885CE00CC480E /* Debug */,
+				5A5E948A20D885CE00CC480E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A5E948B20D885CE00CC480E /* Build configuration list for PBXNativeTarget "Cavern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A5E948C20D885CE00CC480E /* Debug */,
+				5A5E948D20D885CE00CC480E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5A5E948E20D885CE00CC480E /* Build configuration list for PBXNativeTarget "CavernTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A5E948F20D885CE00CC480E /* Debug */,
+				5A5E949020D885CE00CC480E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5A5E949120D885CE00CC480E /* Build configuration list for PBXNativeTarget "CavernUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A5E949220D885CE00CC480E /* Debug */,
+				5A5E949320D885CE00CC480E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5A5E946A20D885CD00CC480E /* Cavern.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5A5E946B20D885CD00CC480E /* Cavern.xcdatamodel */,
+			);
+			currentVersion = 5A5E946B20D885CD00CC480E /* Cavern.xcdatamodel */;
+			path = Cavern.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5A5E945820D885CD00CC480E /* Project object */;
+}
